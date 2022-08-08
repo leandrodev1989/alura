@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+      <!--Formulario Normal-->
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Contato</legend>
+
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" value="" required>
+            <button type="reset">Enviar</button>
+        </fieldset>
+    </form>
+    <br>
+     
+
+    <!--Formilarios datalist-->
+     <input type="text" 
+    
+     list="celular"
+     placeholder="Escolha um celular">
+
+    <datalist id="celular">
+        <option>Celular</option>
+        <option>Carro</option>
+        <option>Carreta</option>
+        <option>Camera</option>
+    </datalist>
+   <!--Formilarios datalist-->
+    <input type="color"
+    list="cores"
+    placeholder="Escolha uma cor">
+    
+    <datalist id="cores">
+        <option>Azul</option>
+        <option>Amarelo</option>
+        <option>Verde</option>
+        <option>Rosa</option>
+    </datalist>
+
+    <input type="file">
+    <br>
+    <!--Formularios password-->
+    <label >Passoword</label>
+    <input type="password"
+    required
+     minlength="4"
+    maxlength="8"
+    size="8"
+    pattern="[0-9a-fA-F]{4,8}"
+    title="Coloque no minimo 4 Caracteres no maximo 8">
+    <button type="submit">Enviar</button>
+
+    <hr>
+    <br>
+    <!--Formulario email-->
+    <form action="">
+        <input type="email" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <br>
+     
+
+    <!--Formularios url-->
+    <datalist id="urlsdata">
+        <option>leandro@gmail.com</option>
+        <option>grautec@live.com</option> 
+        <option>grautecnico@live.com</option>
+    </datalist>
+    <form action="">
+      <label for="">Url</label>
+      <input type="url" 
+      placeholder="http://exemplo.com.br"
+      pattern=".*\.com\.br.*"
+      title="Somente dominios .com.br"
+      list="urlsdata"
+      required
+      >
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br>
+
+    <form action="" method="post" enctype="multipart/form-data">
+       <label for="">File</label>
+       <input type="file"
+       accept=""
+       multiple>
+      
+    </form>
+    <br>
+   <!--Formulario CheckBox-->
+    <for action="">
+          <label for="subscribe">Receber Notificações</label>
+          <input type="checkbox" name="subscribe" id="subscribe"
+          value="submetido"
+          checked>
+    </for>
+    <br>
+    <hr>
+   <!--Radio-->
+    <for action="">
+     <legend>Bora Tomar Café</legend>
+
+     <label for="">Sim</label>
+     <input type="radio" id="yep" name="coffe" value="yes">
+     <label for="">Não</label>
+     <input type="radio" id="yep" name="coffe" value="no">
+
+      <br>
+      <!--Text Areas-->
+     <label id="message">Mensagem</label>
+     <br>
+     <textarea for="message" rows="10" cols="20">
+       
+     </textarea>
+    </for>
+    <br>
+    <hr>
+
+     <!--Select-->
+    <label for="carselect">Qual Modelo do Carro</label>
+     <select name="carmodel" id="carselect" multiple>
+        <optgroup label="3-legged carros"></optgroup>
+        <option value="">Selecione um Modelo</option>
+        <option value="">Fiat</option>
+        <option value="">Vw</option>
+        <option value="">Ford</option>
+     </select>
+</body>
+</html>

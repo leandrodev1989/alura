@@ -1,0 +1,78 @@
+
+
+.{
+ margin: 0;
+}
+
+body{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 0%, #04619f 74%);
+
+}
+
+h1{
+ text-align: center;
+   padding-top: 10px;;
+}
+
+
+
+form{
+    width:  610px;
+    padding-left: 610px;
+    margin-top: 100px;
+}
+
+fieldset{
+
+}
+
+#email{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    width: 400px;
+}
+
+#name{
+    padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  width: 400px;
+  
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    
+   }
+   
+   button:hover{
+    background-color: rgb(20, 60, 73);
+    cursor: pointer;
+   }
+
+   textarea{
+    border-radius: 10px;
+   }
+
+   .fieldset{
+    
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+   }

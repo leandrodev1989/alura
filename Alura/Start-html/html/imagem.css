@@ -1,0 +1,22 @@
+
+.{
+    margin: 0;
+
+}
+header{
+    height: 500px;
+    width: auto;
+    border: solid 2px;
+    
+
+    
+    /*background-image: url(rocket.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    background: linear-gradient(rgb(77, 66, 233)55, 0, 255), rgb(51, 2, 2));
+}
